@@ -19,9 +19,15 @@ last 5 posts
 
 = Webhooks =
 == gitea ==
+-----------
 I just recently started hosting my own gitserver (gitea). Had a few issues setting it up due to some default values in the gitea.service file (that prevented the program from using port 80).
 
 After getting that dealt with I decided to see what I could do with gitea's support for webhooks. So I decided to setup a webhook that will handle updating my blog when I push to my [[https://git.arcanium.tech/tristan/blog-site|Blog Repo]]. 
 
-Once I push a new addition to the repo it now automatically makes a post request to my webhook server that will automatically update my website without intervention.
+Once I push a new addition to the repo it now automatically makes a post request to my webhook server that will automatically update my website without manual intervention.
+
+
+== This Post ==
+---------------
+This post was simply being used to test that functionality in gitea. 
 
