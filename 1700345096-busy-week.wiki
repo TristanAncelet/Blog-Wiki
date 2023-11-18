@@ -20,7 +20,7 @@ last 5 posts
 
 = Busy Week =
 -------------
-I've been exceptionally busy this week at work. We had some high profile projects that my company was being forced to assist with (the projects were another depts).
+I've been exceptionally busy this week at work. We had some high profile projects that my department was being forced to assist with (the projects were another depts). Which unfortunately put us behind on our own projects.
 
 == Did I do any Tickets ==
 --------------------------
