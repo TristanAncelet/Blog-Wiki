@@ -7,6 +7,10 @@
 ## Blog Posts
 -------------
 
+- [[1700345096-busy-week.wiki|2023/11/18 - Busy Week ]] 
+
+- [[1700104768-new-job-offer.wiki|2023/11/15 - New Job Offer ]] 
+
 - [[1699564352-webhooks.wiki|2023/11/09 - Webhooks ]] 
 
 - [[1699558725-ref-290-submitted.wiki|2023/11/09 - REF-290 Submitted ]] 
