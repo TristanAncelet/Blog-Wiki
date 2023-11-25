@@ -31,7 +31,10 @@ Although I do have some of my favorite projects I've worked on to date (that I'm
 - [[https://git.arcanium.tech/tristan/blog|Blog Generator]]
 - [[https://git.arcanium.tech/tristan/myscripts|My Scripts (just a collection of scripts I decided to archive after making)]]
 
-\
+
+
+== Contact Info ==
+------------------
 | Name   | Value                                             |
 |--------|---------------------------------------------------|
 | Email  | tristanancelet@yahoo.com or tristan@arcanium.tech |
