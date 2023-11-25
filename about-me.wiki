@@ -23,6 +23,7 @@ While I haven't done any professional development I have quite a bit of experien
 In my day job I use scripting languages to automate portions of my workload on the admin side. I've used scripting languages alongside automation tooling like ansible to automate backups & version control of server configs as well as Cisco & Calix E7 (AXOS) equipment. 
 
 === Software Projects ===
+-------------------------
 My experience with software is documented in a number of git repos. These are stored primarily on GitHub, but going forward most will on my personal gitserver. Many of my projects will likely be privated because they are unfinished (many of which I haven't worked on in many months at this point).
 
 Although I do have some of my favorite projects I've worked on to date (that I'm willing to share):
@@ -30,6 +31,7 @@ Although I do have some of my favorite projects I've worked on to date (that I'm
 - [[https://git.arcanium.tech/tristan/blog|Blog Generator]]
 - [[https://git.arcanium.tech/tristan/myscripts|My Scripts (just a collection of scripts I decided to archive after making)]]
 
+\
 | Name   | Value                                             |
 |--------|---------------------------------------------------|
 | Email  | tristanancelet@yahoo.com or tristan@arcanium.tech |
