@@ -14,7 +14,7 @@ I am Tristan Ancelet, an aspiring technologist. I enjoy working with both softwa
 == What work do I do ==
 === Unix & Linux Systems Engineering ===
 ------------------------------------------------
-As explained above I work as a Unix & Linux Systems Engineer, at an ISP. Out of necessity much of my work is admin-ing our legacy servers as we do not have a dedicated SysAdmin on staff. Otherwise I work on projects to setup and integrate vendors software/products into our infrastructure. 
+As explained above I work as a Unix & Linux Systems Engineer, at an ISP. Out of necessity much of my work is admin-ing our legacy servers as we do not have a dedicated SysAdmin on staff. Otherwise I work on projects to setup new servers and integrate vendors software/products into our infrastructure. 
 
 === Development ===
 -------------------
