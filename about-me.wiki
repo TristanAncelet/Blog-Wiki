@@ -42,6 +42,7 @@ Although I do have some of my favorite projects I've worked on to date (that I'm
 
 == Other Links ==
 -----------------
+- [[https://git.arcanium.tech/tristan/journal|My Journal]]
 - [[https://www.linkedin.com/in/tristan-ancelet/|LinkedIn]]
 - [[https://github.com/TristanAncelet|GitHub]]
 - [[https://github.com/TristanAncelet/BlogGenerator|GitHub Repo for this Project]]
