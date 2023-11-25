@@ -4,7 +4,7 @@
 [[about-me.wiki|About Me]]
 --------
 
-## Blog Posts
+= Blog Posts =
 -------------
 
 - [[1700863814-auvik-trial.wiki|2023/11/24 - Auvik Trial ]] 

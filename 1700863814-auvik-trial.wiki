@@ -20,15 +20,16 @@ last 5 posts
 *Author:* Tristan Ancelet
 
 = Auvik Trial =
-Auvik was providing a 14 day trial to test out their platform.
-
 == The Trial ==
 ---------------
-I wasn't even aware of what Auvik even was until I came accross a "Use Auvik and win a free Ubiquity Switch" ad. The primary factor for me messing with their paltform was admittedly the free switch. 
+
+[[https://www.auvik.com/|Auvik]] was providing a 14 day trial to test out their platform.
+
+I wasn't even aware of what Auvik even was until I came accross a "try Auvik and win a free Ubiquity Switch" ad. The primary factor for me messing with their paltform was admittedly the free switch. 
 
 == Their Platform ==
 -------------------
-Unbeknownst to me, their platform was akin to something I've just recently been working with at work. A network monitoring server.
+Unbeknownst to me, their platform was akin to something I've just recently been working with at work. A network monitoring service, but instead of an on-prem solution it's based in the cloud with a collector/agent you have to install on a server in your network.
 
 
 == LibreNMS: At Work ==
@@ -51,6 +52,26 @@ Within 10 minutes their collector had mapped out (just about) every single VLAN 
 With my experience with Solarwinds, Zabbix and LibreNMS I didn't expect much in the way of UX from Auvik. However, I was plesantly suprised. The UI & UX for their platform was outstanding. Everything is laid out well and everything is formatted in a way that makes everything easy to read. 
 
 For someone that despises Front-End work, I can appreciate the effort they've put into their product.
+
+=== Operation : Features ===
+==== Remote Management ====
+---------------------------
+One of the features that I really like about this prouct is the "remote management" feature. While it does allow you to monitor your devices from the cloud, it also allows you to run commands and even get a shell on the device itself. It looks like it supports both telnet and ssh to get a shell on the device (provided you have configured the credentials). 
+
+LibreNMS lets you take a shortcut by pressing the "Telnet to <hostname>"/"SSH to <hostname>" that simply opens up a link in a new window in the format `ssh://<hostname>` or `telnet://<hostname>` and it's up to your desktop enviroment to interpret it and try to launch it in the default application to handle those connections. However, with Auvik they have a web-based terminal that allows you to access your devices from anywhere (provided the collector has access to the port needed to ssh or telnet to the device.
+
+This allows you to gain access to your devices and make changes without having to deal with VPN's or actually being on the network to do it locally. This is a very useful tool and one of the few features that I appreciate from the platform.
+
+==== Others ====
+----------------
+Unfortunately with the little time I was on the platform I wasn't able to delve into the depts of what it offers. However, from what I was able to see the offered the full stack of applications and services for your needs:
+- SNMP monitoring
+- Syslog
+- Remote Management
+- Network Map (best I've used so far on a NMS platform)
+- Traffic Analysis 
+
+There were probably much more that I just haven't seen, but this is the what I was able to see on the surface. 
 
 == Overall ==
 -------------
