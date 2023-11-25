@@ -1,0 +1,58 @@
+%title Auvik Trial
+
+
+---------------------------
+[[index.wiki|Index]]
+---------------------------
+
+last 5 posts
+---------------------------
+
+ - [[1700345096-busy-week.wiki|Busy Week]]
+ - [[1700104768-new-job-offer.wiki|New Job Offer]]
+ - [[1699564352-webhooks.wiki|Webhooks]]
+ - [[1699558725-ref-290-submitted.wiki|REF-290 Submitted]]
+ - [[1699375988-ref-209-start.wiki|REF-290: Start]]
+
+---------------------------
+*Date:* 2023/11/24
+
+*Author:* Tristan Ancelet
+
+= Auvik Trial =
+Auvik was providing a 14 day trial to test out their platform.
+
+== The Trial ==
+---------------
+I wasn't even aware of what Auvik even was until I came accross a "Use Auvik and win a free Ubiquity Switch" ad. The primary factor for me messing with their paltform was admittedly the free switch. 
+
+== Their Platform ==
+-------------------
+Unbeknownst to me, their platform was akin to something I've just recently been working with at work. A network monitoring server.
+
+
+== LibreNMS: At Work ==
+-------------
+At work we use Solarwinds almost exclusively, but recently in the engineering dept we decided to setup our own NMS with [[https://www.librenms.org/|LibreNMS]]. A process that I setup in a [[https://git.arcanium.tech/tristan/myscripts/src/branch/master/install-librenms.sh|script]] for ease-of-use for anyone else wanting to try it. It is an amazing project and I highly praise it for all of the functionality it brings. 
+
+However, there are still some pain points with the project in terms of the network map. When viewing a network map, unless you've grouped up your devices in small enough network groups (doesn't help sometimes) your network map will be presented in a spider-web without any ability to resize or manipulate the map in any way (that makes it easier to read). Although this is where any gripes over LibreNMS starts and ends, as otherwise this is an amazing project that makes monitoring your network much more manageable.
+
+== Auvik ==
+=== Deployment & Setup ===
+--------------------------
+Deploying their solution was insanely easy. I took the route of deploying their collector via a docker container (they generate you a docker compose file) on my VM Server, which only took a few minutes to download the necessary images and start it. Very soon after it connected back to their platform and began scanning my internal network.
+
+=== Operation : Function ===
+----------------------------
+Within 10 minutes their collector had mapped out (just about) every single VLAN and network I had running in my homelab (even the vnets running on my VM server). It really suprised me how invasive it was. 
+
+=== Operation : UX ===
+----------------------
+With my experience with Solarwinds, Zabbix and LibreNMS I didn't expect much in the way of UX from Auvik. However, I was plesantly suprised. The UI & UX for their platform was outstanding. Everything is laid out well and everything is formatted in a way that makes everything easy to read. 
+
+For someone that despises Front-End work, I can appreciate the effort they've put into their product.
+
+== Overall ==
+-------------
+This is a really high-quality product I would like to use in my own lab, but due to it's black-box nature I wouldn't be ok with using it for my home network.
+
