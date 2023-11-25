@@ -11,7 +11,29 @@
 I am Tristan Ancelet, an aspiring technologist. I enjoy working with both software and operating systems. I work as a Systems Engineer in my day job for an ISP, in this job I do both Engineering work and Administration Work. In this position I also leverage ansible and create software to help automate portions of my job so that I can cut down the time I have to spend administrating our systems.
 
 
+== What work do I do ==
+=== Unix & Linux Systems Engineering & Admin ===
+------------------------------------------------
+As explained above I work as a Unix & Linux Systems Engineer, at an ISP. Out of necessity much of my work is admin-ing our legacy servers as we do not have a SysAdmin on staff. Otherwise I work on projects to setup and integrate vendors software/products into our infrastructure. Alongside this I would also make sure to talk with our IT dept to make sure that I am staying within securty expectations for any new servers we setup.
 
+=== Development ===
+-------------------
+While I haven't done any professional development I have quite a bit of experience working with programming languages. I particularly like working with scripting languages like bash, python and ruby. 
+
+In my day job I use scripting languages to automate portions of my workload on the admin side. I've used scripting languages alongside automation tooling like ansible to automate backups & version control of server configs as well as Cisco & Calix E7 (AXOS) equipment. 
+
+=== Software Projects ===
+My experience with software is documented in a number of git repos. These are stored primarily on GitHub, but going forward most will on my personal gitserver. Many of my projects will likely be privated because they are unfinished (many of which I haven't worked on in many months at this point).
+
+Although I do have some of my favorite projects I've worked on to date (that I'm willing to share):
+- [[https://git.arcanium.tech/tristan/webcron|WebCron]]
+- [[https://git.arcanium.tech/tristan/blog|Blog Generator]]
+- [[https://git.arcanium.tech/tristan/myscripts|My Scripts (just a collection of scripts I decided to archive after making)]]
+
+| Name   | Value                                             |
+|--------|---------------------------------------------------|
+| Email  | tristanancelet@yahoo.com or tristan@arcanium.tech |
+| Number | +1 (337) 965-1855                                 |
 
 == Other Links ==
 -----------------
