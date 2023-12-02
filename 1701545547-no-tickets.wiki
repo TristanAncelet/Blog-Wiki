@@ -19,4 +19,5 @@ last 5 posts
 *Author:* Tristan Ancelet
 
 = No Tickets =
+--------------
 There were no tickets for us to work on for the last 2 weeks. So there has been nothing to do.
