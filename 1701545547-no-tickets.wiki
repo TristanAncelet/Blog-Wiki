@@ -1,0 +1,22 @@
+%title No Tickets
+
+
+---------------------------
+[[index.wiki|Index]]
+---------------------------
+
+last 5 posts
+---------------------------
+
+ - [[1700863814-auvik-trial.wiki|Auvik Trial]]
+ - [[1700345096-busy-week.wiki|Busy Week]]
+ - [[1700104768-new-job-offer.wiki|New Job Offer]]
+ - [[1699564352-webhooks.wiki|Webhooks]]
+ - [[1699558725-ref-290-submitted.wiki|REF-290 Submitted]]
+
+*Date:* 2023/12/02
+
+*Author:* Tristan Ancelet
+
+= No Tickets =
+There were no tickets for us to work on for the last 2 weeks. So there has been nothing to do.

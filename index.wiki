@@ -4,8 +4,10 @@
 [[about-me.wiki|About Me]]
 --------
 
-= Blog Posts =
+## Blog Posts
 -------------
+
+- [[1701545547-no-tickets.wiki|2023/12/02 - No Tickets ]] 
 
 - [[1700863814-auvik-trial.wiki|2023/11/24 - Auvik Trial ]] 
 
