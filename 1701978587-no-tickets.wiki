@@ -1,0 +1,22 @@
+%title No Tickets
+
+
+---------------------------
+[[index.wiki|Index]]
+---------------------------
+
+last 5 posts
+---------------------------
+
+ - [[1701545547-no-tickets.wiki|No Tickets]]
+ - [[1700863814-auvik-trial.wiki|Auvik Trial]]
+ - [[1700345096-busy-week.wiki|Busy Week]]
+ - [[1700104768-new-job-offer.wiki|New Job Offer]]
+ - [[1699564352-webhooks.wiki|Webhooks]]
+
+*Date:* 2023/12/07
+
+*Author:* Tristan Ancelet
+
+= No Tickets =
+Unfortunately there are no tickets for us to do at the moment. The tickets that are there are too advanced for us in school to do. However, once QA goes through our other tickets they will put in tickets for bug fixes.
