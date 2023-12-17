@@ -1,0 +1,73 @@
+%title ZFS Upgrade Issue
+
+
+---------------------------
+[[index.wiki|Index]]
+---------------------------
+
+last 5 posts
+---------------------------
+
+ - [[1701545547-no-tickets.wiki|No Tickets]]
+ - [[1700863814-auvik-trial.wiki|Auvik Trial]]
+ - [[1700345096-busy-week.wiki|Busy Week]]
+ - [[1700104768-new-job-offer.wiki|New Job Offer]]
+ - [[1699564352-webhooks.wiki|Webhooks]]
+
+*Date:* 2023/12/17
+
+*Author:* Tristan Ancelet
+
+= ZFS Upgrade Issue =
+== Background ==
+----------------
+I have an DIY Ubuntu NAS (one of the first few linux installs), and I was having aggravations with the zfs-dkms package that I had setup a couple of years ago to host raided pools for my NAS setup. However, recently during an update I noticed the kernel was updated on the machine to 6.2.0-39-generic which now caused the zfs-dkms to throw errors when apt would run mkinitcpio as the zfs-dkms-2.1.5 module only supported up to kernel 5.19.
+
+While it didn't exactly cause any issues with the zfs installation there was currently (it still functioned fine even with the new kernel). I got tired of it so I decided to compile openzfs from source and install it on my system.
+
+{{{bash
+sudo -i 
+
+git clone https://github.com/openzfs/zfs
+
+## I was missing a few dependencies but installed them like so
+apt install uuid-dev libblkid-dev
+
+cd zfs
+## Run the autoconf autogen script
+./autogen.sh
+## Run the configure script to build the Makefile
+./configure
+
+## Build the module to make sure everything goes ok
+make 
+
+## Had to add the extra modules to the depmod search ath
+depmod_cont="$(</etc/depmod.d/ubuntu.conf)"
+## Replace "search" with "search extra" to put the extra modules into the depmod path
+depmod_cont="${depmod_cont/search/search extra}"
+echo "$depmod_cont" > /etc/depmod.d/ubuntu.conf
+
+## Build and intall
+make install
+}}}
+
+
+== Other issues ==
+=== Zpools not importing ===
+----------------------------
+Upon finishing installation and reboot I noticed that when the server rebooted it didn't mount the pools on boot. I always had to import them manually `zpool import data && zpool import media`
+
+I was confused because the configs setup by my dkms installation were still valid `/etc/defaults/zfs`.
+
+While it took me an hour to figure it out, I eventually figured out what was wrong and why zfs wasn't importing my pools.
+
+the services configured in /usr/lib/systemd/system were setup with the path that bsd/unix would use for the zpool.cache file (`/usr/local/etc/zfs/zpool.cache`) instead of what zfs was configured with on my zfs-dkms installation (`/etc/zfs/zpool.cache`).
+
+=== Resolution ===
+------------------
+All I ended up needing to do was change the path's that the service files from `/usr/local/etc/zfs/zpool.cache` to `/etc/zfs/zpool.cache` (wherever applicable).
+
+After doing that and rebooting the pools were imported and mounted as they previously had.
+
+
