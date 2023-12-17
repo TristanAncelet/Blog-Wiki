@@ -26,7 +26,8 @@ I have an DIY Ubuntu NAS (one of the first few linux installs), and I was having
 While it didn't exactly cause any issues with the zfs installation there was currently (it still functioned fine even with the new kernel). I got tired of it so I decided to compile openzfs from source and install it on my system.
 
 {{{bash
-sudo -i 
+## Run as root
+# sudo -i 
 
 git clone https://github.com/openzfs/zfs
 
@@ -50,6 +51,12 @@ echo "$depmod_cont" > /etc/depmod.d/ubuntu.conf
 
 ## Build and intall
 make install
+
+## Run ldconfig
+ldconfig
+
+## Run depmod
+depmod
 }}}
 
 
