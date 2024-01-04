@@ -1,0 +1,13 @@
+%title My Jobs
+
+
+---------------------------------
+[[/index.wiki|Index]]
+---------------------------------
+
+
+= My Jobs =
+-----------
+- [[/job/fastwyre-unix-linux-systems-engineer|Unix & Linux Systems Engineer (Feb 2022 -> Dec 2023)]]
+- [[/job/acumera-linux-systems-engineer|Linux Systems Engineer (Dec 2023 -> Current)]]
+
