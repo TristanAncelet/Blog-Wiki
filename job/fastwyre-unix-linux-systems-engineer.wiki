@@ -9,6 +9,7 @@
 *Name:* [[https://fastwyre.com|Fastwyre Broadband]]
 
 | Duration of employment |            |
+|------------------------|------------|
 | Start Date             | 2022/02/21 |
 | End Date               | 2023/12/01 |
 
