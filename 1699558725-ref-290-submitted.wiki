@@ -18,6 +18,8 @@ last 5 posts
 
 *Author:* Tristan Ancelet
 
+*Category:* School
+
 = REF-290 Submitted =
 == Further Work ==
 To finish off what I've done for my REF:

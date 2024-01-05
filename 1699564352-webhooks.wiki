@@ -19,6 +19,8 @@ last 5 posts
 
 *Author:* Tristan Ancelet
 
+*Category:* School
+
 = Webhooks =
 == gitea ==
 -----------

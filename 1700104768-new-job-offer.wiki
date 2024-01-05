@@ -20,6 +20,8 @@ last 5 posts
 
 *Author:* Tristan Ancelet
 
+*Category:* School
+
 = New Job Offer =
 == The offer ==
 Yea, as the post suggests I got a job offer from another company that want's to hire me as a Linux Systems Engineer.

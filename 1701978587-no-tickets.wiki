@@ -18,5 +18,7 @@ last 5 posts
 
 *Author:* Tristan Ancelet
 
+*Category:* School
+
 = No Tickets =
 Unfortunately there are no tickets for us to do at the moment. The tickets that are there are too advanced for us in school to do. However, once QA goes through our other tickets they will put in tickets for bug fixes.

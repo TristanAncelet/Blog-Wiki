@@ -9,6 +9,8 @@
 
 *Author:* Tristan Ancelet  
 
+*Category:* School
+
 = Hello World =
 ---------------
 Hello everyone, I'm terrible at things like blogging so I'll just start off with the basics. My name is Tristan Ancelet. I'm a technologist both in hobby and in work.

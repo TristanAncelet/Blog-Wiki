@@ -18,6 +18,8 @@ last 5 posts
 
 *Author:* Tristan Ancelet
 
+*Category:* Personal
+
 = ZFS Upgrade Issue =
 == Background ==
 ----------------
