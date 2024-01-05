@@ -15,8 +15,6 @@ last 5 posts
 
 *Author:* Tristan Ancelet   
 
-*Category:* School
-
 = First Ticket =
 ----------------
 I finished my first ticket not too long ago. Was one involving front end work. Which is one of my weakest areas, especially since I've never done front-end work on Android UI before. 
