@@ -1,7 +1,7 @@
-%title [Fastwyre] Unix & Linux Systems Engineer
+%title Unix & Linux Systems Engineer (Fastwyre)
 
 
-= [Fastwyre] Unix & Linux Systems Engineer =
+= Unix & Linux Systems Engineer (Fastwyre 2022 -> 2023) =
 --------------------------------------------
 
 == Employer ==
@@ -14,4 +14,65 @@
 | End Date               | 2023/12/01 |
 
 == Job Duties ==
-As a Unix & Linux Systems Engineer working for Fastwyre Broadband
+----------------
+In my role as a Unix & Linux Systems Engineer at Fastwyre Broadband, I was deeply involved in various critical facets of our operations. I spearheaded the administration of our servers, catering to a wide spectrum of internal and external services. Additionally, my responsibilities extended to delivering robust L2 & L3 support for the myriad applications running on them. 
+
+As a Systems Engineer, I played a pivotal role in orchestrating and executing strategic projects focused on establishing new infrastructure. I spearheaded the seamless migration of both our internal systems and our valued customers from legacy setups to modernized environments. This involved meticulously planning and implementing the transition, ensuring minimal disruption while maximizing the efficiency and reliability of our systems. Collaborating cross-functionally, I worked with my team to architect robust solutions that aligned with evolving technological needs and significantly enhanced our operational capabilities
+
+In addition to my core responsibilities, I maintained a suite of legacy scripts and workflows, predominantly scripted in Perl, Python, Shell, and Bash. These played a pivotal role in streamlining our internal processes, serving as the backbone for automating a significant portion of our operations. They efficiently generated crucial data from a myriad of legacy services utilized by our customers. This data was instrumental in facilitating our billing department's accurate invoicing processes, ensuring precise customer charges based on the services availed
+
+
+== Services ==
+--------------
+=== Provided to Customers ===
+- Email ([[https://www.magicmail.com/|MagicMail]])
+- Public NTP Servers (xntpd, ntpd & chrony)
+- Legacy WebServers (apache2 & httpd)
+{{{	
+  Note:
+  These in the past hosted websites for our customers, however shortly before I 
+  started working there the company no longer offered this service to new customers. 
+  While we still continued to host some of our legacy customer's sites.
+  
+  Our webservers got shut down a few months before I left the company.
+}}}
+- DNS (named/bind9)
+{{{
+  Note:
+  The company used to offer to fully handle customer's domains and websites.
+  Meaning that we used to register their domain at a registrar and host their
+  DNS records on our public DNS servers.
+}}}
+- Telephony & VoIP ([[https://www.metaswitch.com/|Metaswitch]])
+{{{
+  Note:
+  I managed our MetaSwitch enviornment (CFS, EAS & their related Hardware & VMs). 
+  
+  This included:
+  - Setting up & configuring VoIP Phones to work with our CFS for businesses 
+  - Providing support for VoIP & SIP related issues
+  - Managed hardware maintainance (drive & unit replacements) Setting up automated (via cron) scripts to archive BAF files 
+    and transfer them to our vendors.
+}}}
+- DHCP (isc-dhpcd)
+- IPTV Managment Server ([[https://www.minervanetworks.com/platform/|Minerva 10]])
+
+=== Provided Internally ===
+- SMTP Servers (postfix configured as a relay)
+{{{
+  Note:
+  I had to setup postfix as a smtp-relay to allow for our legacy internal systems & 
+  applicatons that didn't support auth over tls or starttls to be able to send 
+  emails for both internal & customer related services.
+}}}
+- File Servers (nfs, samba, ftp, sftp, etc)
+{{{
+  Note:
+  This is a rather general/broad service, but our file/storage servers handled storing backups
+  from our various services & servers that didn't all support just using sftp. This was due 
+  to the age of some of our systems as many of them didn't suport the same hostkey algorithms
+  and/or we didn't have shell access to the underlying OS to change sshd_config to add 
+  support.
+}}}
+- [[https://calix.com|Calix]] Network Management Servers ([[https://www.calix.com/compass/calix-management-system.html|CMS]] & [[https://www.calix.com/calix-university/axos/introduction-to-smx.html|SMx]])
+- Network Monitoring Server ([[https://www.librenms.org/|LibreNMS]])

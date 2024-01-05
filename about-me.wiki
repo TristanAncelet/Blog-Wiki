@@ -8,7 +8,7 @@
 
 == Who Am I ==
 --------------
-I am Tristan Ancelet, an aspiring technologist. I enjoy working with both software and operating systems. I work as a Systems Engineer in my day job for an MSP, in this job I do both Engineering work and Administration Work. In this position I also leverage ansible and create software to help automate portions of my job so that I can cut down the time I have to spend administrating our systems.
+I am Tristan Ancelet, an aspiring technologist. I enjoy working with both software and operating systems. I work as a Systems Engineer in my day job for Acumera (a MSP). In this job I work alongside a team facilitating automated deployments for customers at the edge. We do this by leveraging Puppet, Jenkins and a host of internal tooling to setup CI-CD pipelines to be able to have reproducible deployments.
 
 
 == What work do I do ==
