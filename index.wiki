@@ -4,7 +4,7 @@
 [[about-me.wiki|About Me]]
 --------
 
-## Blog Posts
+== Blog Posts ==
 -------------
 
 - [[1702849369-zfs-upgrade-issue.wiki|2023/12/17 - ZFS Upgrade Issue ]] 
