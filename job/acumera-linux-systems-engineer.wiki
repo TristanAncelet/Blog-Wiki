@@ -1,0 +1,42 @@
+%title Linux Systems Engineer (Acumera)
+
+
+= Unix & Linux Systems Engineer (Acumera 2023 -> Current) =
+--------------------------------------------
+
+== Employer ==
+--------------
+*Name:* [[https://www.acumera.com|Acumera]]
+
+| Duration of employment |            |
+|------------------------|------------|
+| Start Date             | 2023/12/04 |
+| End Date               | Current    |
+
+== Job Duties ==
+----------------
+As a Linux Systems Engineer working at Acumera, my role is multifaceted, encompassing various responsibilities to ensure the efficient operation of our infrastructure. 
+
+Key aspects of my position include:
+- Infrastructure Deployment
+{{{
+Proficiently utilizing Puppet to build out new equipment and virtual machines (VMs) for customers. This involves configuring and optimizing Linux systems to meet specific requirements.
+}}}
+- Cloud Infrastructure Management
+{{{
+Setting up new Virtual Private Clouds (VPCs) in AWS to facilitate the seamless rollout of customer VMs. This involves configuring networking, security, and other AWS services to create robust and scalable environments.
+}}}
+- Automation Scripting
+{{{
+Developing scripts to automate intricate tasks, enhancing operational efficiency. These scripts empower our customer support team to address and resolve issues promptly, ensuring a swift and effective response to customer needs.
+}}}
+- Escalation Handling
+{{{ 
+Handling escalations from customers when their infrastructure encounters issues. This involves diagnosing and resolving complex problems, collaborating with cross-functional teams to ensure the restoration of normal operations.
+}}}
+- Jenkins Integration
+{{{
+Collaborating with Jenkins to design automated buildout jobs. This process streamlines the provisioning of customer equipment from a gold-image, reducing manual intervention and enhancing the speed and consistency of our deployment processes.
+}}}
+
+In summary, my role involves a combination of infrastructure deployment, cloud management, automation scripting, escalation handling, and Jenkins integration, contributing to the overall reliability and efficiency of our systems and services.
