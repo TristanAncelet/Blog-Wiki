@@ -7,6 +7,8 @@
 == Blog Posts ==
 -------------
 
+- [[/1705864010-no-tickets.wiki|2024/01/21 - No Tickets]]
+  
 - [[1702849369-zfs-upgrade-issue.wiki|2023/12/17 - ZFS Upgrade Issue ]] 
 
 - [[1701978587-no-tickets.wiki|2023/12/07 - No Tickets ]] 
